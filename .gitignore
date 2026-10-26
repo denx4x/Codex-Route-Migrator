@@ -1,0 +1,81 @@
+
+# ====================================
+# Codex Route Migrator
+# ====================================
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+release/
+out/
+coverage/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.*
+!.env.example
+.envrc
+
+# Credentials and authentication
+.npmrc
+*.pem
+*.key
+*.pfx
+*.p12
+*.keystore
+id_rsa
+id_ed25519
+**/auth.json
+**/credentials.json
+**/secrets.json
+**/token.json
+
+# Local Codex configurations
+.codex/
+.codex-9router/
+AGENTS.md
+
+# Local application settings
+app-settings.json
+*.local.json
+
+# Backups and exports
+*.codexroute
+CodexRouteBackups/
+*.bak
+*.backup
+
+# SQLite databases
+*.sqlite
+*.sqlite-*
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.db3
+*.db3-*
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vs/
+.vscode/
+.idea/
+
+# Temporary development scripts
+create_*.js
+generate_*.js
+patch_*.js
+write_b64.js
+test_*.js
+src_main_*.b64
+test.txt
